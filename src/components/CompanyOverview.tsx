@@ -84,14 +84,14 @@ const AboutSection: React.FC = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="mt-3">
+            {/* <div className="mt-3">
               <button className="bg-[#4caf50] hover:bg-[#2E7D32] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 hover:shadow-lg flex items-center">
                 Learn More About UK Exports
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 

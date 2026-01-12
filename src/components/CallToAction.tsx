@@ -9,7 +9,7 @@ const CallToAction: React.FC = () => {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       description: "Quick Response",
-      details: "info@dartmetals.com",
+      details: "info@dartmetals.co.uk",
       note: "Send requirements for quotation",
       link: "mailto:info@dartmetals.com?subject=Metal Export Inquiry&body=Hello, I would like to inquire about your metal export services.",
       bgColor: "bg-green-600/30",
@@ -48,17 +48,17 @@ const CallToAction: React.FC = () => {
   ];
 
   return (
-    <section id="contact" className="py-16 bg-gray-800 text-white">
+    <section id="contact" className="py-12 bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Content with 70% Left, 30% Right Layout */}
-        <div className="grid lg:grid-cols-10 gap-8 items-start mb-6">
+        <div className="grid lg:grid-cols-1 gap-8 items-center mb-6">
           
           {/* Left Side - Content & Details (70%) */}
           <div className="lg:col-span-7">
-            <div className="space-y-2">
+            <div className="space-y-4">
               {/* Main Heading */}
-              <h2 className="text-2xl md:text-4xl font-bold mb-4">
+              <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
                 Start Your Metal Export Journey
               </h2>
               
@@ -96,7 +96,7 @@ const CallToAction: React.FC = () => {
 </div>
               
               {/* Description Paragraph */}
-              <p className="text-green-100 text-sm md:text-lg">
+              <p className="text-green-100 text-sm md:text-lg mb-6">
                 Get premium quality ferrous and non-ferrous metals with complete export solutions. 
                 Our team handles everything from sourcing to delivery.
               </p>
@@ -117,12 +117,12 @@ const CallToAction: React.FC = () => {
           </div>
 
           {/* Right Side - Call Now Button (30%) */}
-          <div className="lg:col-span-3">
+          {/* <div className="lg:col-span-3">
             <div className="sticky top-24">
               <div className="bg-gradient-to-br from-green-600 to-green-800 rounded-2xl p-4 text-center shadow-2xl">
                 <Phone className="w-8 h-8 mx-auto mb-6 text-white" />
                 <h3 className="text-2xl font-bold mb-4">Call Now</h3>
-                <p className="text-green-200 mb-6">Get instant quote for your metal export needs</p>
+                <p className="text-green-200 mb-6">Get instant quote for your metal export needs</p> */}
                 {/* <a 
                   href="tel:+442012345678"
                   className="block w-full bg-white text-green-700 hover:bg-gray-100 font-bold py-4 px-6 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 mb-4"
@@ -141,9 +141,9 @@ const CallToAction: React.FC = () => {
                     Email Quote
                   </a>
                 </div> */}
-              </div>
+              {/* </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* 4 Cards with Full Width */}
