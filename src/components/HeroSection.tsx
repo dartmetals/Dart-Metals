@@ -67,6 +67,7 @@ const HeroSection: React.FC = () => {
               <img 
                 src={slide.image} 
                 alt={slide.title} 
+                loading="lazy"
                 className="absolute inset-0 w-full h-full md:object-cover object-contain"
               />
               
