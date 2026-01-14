@@ -3,7 +3,7 @@ import { CheckCircle, Globe, Truck, Shield } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="py-5 bg-gray-50">
+    <section id="about" className="py-5 bg-gray-50 -mt-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-5 gap-12 items-center">
           
@@ -94,7 +94,6 @@ const AboutSection: React.FC = () => {
             </div> */}
           </div>
         </div>
-
       </div>
     </section>
   );

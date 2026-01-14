@@ -9,7 +9,7 @@ const CallToAction: React.FC = () => {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       description: "Quick Response",
-      details: "info@dartmetals.co.uk",
+      details: "contact@dartmetals.co.uk",
       note: "Send requirements for quotation",
       link: "mailto:info@dartmetals.com?subject=Metal Export Inquiry&body=Hello, I would like to inquire about your metal export services.",
       bgColor: "bg-green-600/30",

@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
     },
     {
       image: "/hero-bg4.png",
-      title: "Sustainable Scrap Metal Recycling Solutions",
+      title: "Sustainable Scrap Metal Recycling ",
       subtitle: "Responsible Sourcing & Processing"
     }
   ];
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
     <section id="/" className="relative w-full  overflow-hidden">
       
       {/* Slides Container */}
-      <div className="relative w-full h-[85vh] min-h-[600px] max-h-[900px]">
+      <div className="relative w-full h-[70vh] min-h-[160px] md:min-h-[500px] max-h-[800px]">
         {slides.map((slide, index) => {
           const slidePosition = index - currentSlide;
           
@@ -67,30 +67,30 @@ const HeroSection: React.FC = () => {
               <img 
                 src={slide.image} 
                 alt={slide.title} 
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full md:object-cover object-contain"
               />
               
               {/* Gradient Overlay for better text visibility */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
+              {/* <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div> */}
 
               {/* Title and Subtitle Container */}
               <div
-                className={`absolute top-96 md:top-96 md:left-16 z-30 md:w-1/2 transition-all duration-1000 ease-out delay-300 ${
+                className={`absolute top-52 md:top-78 md:left-16 z-30 md:w-1/2 transition-all duration-1000 ease-out delay-300 ${
                   slidePosition === 0 
                     ? "opacity-100 translate-x-0" 
                     : "opacity-0 translate-x-10"
                 }`}
               >
                 {/* Title with perfect rectangular radius */}
-                <div className="bg-blue-700/85 ml-6 md:ml-0 backdrop-blur-sm p-2 md:p-2 rounded-md mb-1 border border-blue-300/50 shadow-xl inline-block">
-                  <h2 className="ml-5 text-med md:text-2xl font-semibold text-white">
+                <div className="bg-yellow-400 ml- md:ml-0 backdrop-blur-sm p-1 md:p-2 rounded-md mb-1 border border-blue-300/50 shadow-xl inline-block">
+                  <h2 className="ml- text-sm md:text-2xl font-bold text">
                     {slide.title}
                   </h2>
                 </div>
                 
                 {/* Subtitle with perfect rectangular radius */}
-                <div className="bg-gray-900/85 ml-6 md:ml-0 backdrop-blur-sm p-2 md:p-2 rounded-lg border border-gray-400/50 mb-1 shadow-2xl inline-block">
-                  <h1 className="ml-3 text-sm md:text-xl font-bold text-white">
+                <div className="bg-gray-900/85 ml- md:ml-0 backdrop-blur-sm p-1 md:p-2 rounded-lg border border-gray-400/50 mb-1 shadow-2xl inline-block">
+                  <h1 className="ml- text-sm md:text-xl font-bold text-white">
                     {slide.subtitle}
                   </h1>
                 </div>
