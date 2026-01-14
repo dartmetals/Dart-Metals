@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
 
               {/* Title and Subtitle Container */}
               <div
-                className={`absolute top-52 md:top-78 md:left-16 z-30 md:w-1/2 transition-all duration-1000 ease-out delay-300 ${
+                className={`absolute top-56 md:top-78 md:left-16 z-30 md:w-1/2 transition-all duration-1000 ease-out delay-300 ${
                   slidePosition === 0 
                     ? "opacity-100 translate-x-0" 
                     : "opacity-0 translate-x-10"
