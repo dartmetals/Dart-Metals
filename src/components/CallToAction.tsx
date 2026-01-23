@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MessageCircle, ArrowRight, Shield, Package, Globe, MapPin } from 'lucide-react';
+import { Mail, Phone, MessageCircle, ArrowRight,  MapPin } from 'lucide-react';
 
 const CallToAction: React.FC = () => {
   
