@@ -11,6 +11,7 @@ import Logistics from './components/Logistics';
 import QualityControl from './components/QualityControl';
 import IndustriesServed from './components/IndustriesServed';
 import SustainabilityCompliance from './components/SustainabilityCompliance';
+// import LicensePage from './components/LicensePage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <SustainabilityCompliance/>
         <CallToAction/>
        </div> }/>
+       {/* <Route path='/license' element={<LicensePage/>}/> */}
        </Routes> 
         <Footer/>       
         </Router>

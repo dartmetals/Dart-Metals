@@ -84,7 +84,7 @@ const QualityControl: React.FC = () => {
             <p className="text-gray-600">We follow international quality requirements</p>
           </div> */}
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-4">
             <div className="text-center ">
               <div className="text-2xl font-bold text-blue-600 ">ISO</div>
               <div className="text-gray-900 font-medium">Certified</div>

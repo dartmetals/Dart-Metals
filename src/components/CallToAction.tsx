@@ -58,12 +58,12 @@ const CallToAction: React.FC = () => {
           <div className="lg:col-span-7">
             <div className="space-y-4">
               {/* Main Heading */}
-              <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
+              {/* <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
                 Start Your Metal Export Journey
-              </h2>
+              </h2> */}
               
               {/* Features Grid - Horizontal Layout */}
-<div className="flex flex-col md:flex-row gap-3 mb-2">
+{/* <div className="flex flex-col md:flex-row gap-3 mb-2">
   <div className="flex-1 flex items-start p-2">
     <div className="w-8 h-8 bg-green-600/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
       <Shield className="w-4 h-4 text-green-400" />
@@ -93,13 +93,13 @@ const CallToAction: React.FC = () => {
       <div className="text-green-200 text-sm md:text-base">Exporting to 30+ countries</div>
     </div>
   </div>
-</div>
+</div> */}
               
               {/* Description Paragraph */}
-              <p className="text-green-100 text-sm md:text-lg mb-6">
+              {/* <p className="text-green-100 text-sm md:text-lg mb-6">
                 Get premium quality ferrous and non-ferrous metals with complete export solutions. 
                 Our team handles everything from sourcing to delivery.
-              </p>
+              </p> */}
               
               {/* UK Based Operations */}
               <div className="bg-gray-900/50 rounded-xl p-6">
@@ -147,7 +147,7 @@ const CallToAction: React.FC = () => {
         </div>
 
         {/* 4 Cards with Full Width */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {contactMethods.map((method, index) => (
             <a 
               key={index}

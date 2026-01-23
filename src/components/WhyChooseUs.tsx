@@ -41,7 +41,7 @@ const WhyChooseUs: React.FC = () => {
         </div>
 
         {/* Reasons Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 -mt-6 mb-12">
+        <div className="grid sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 -mt-6 mb-12">
           {reasons.map((reason, index) => (
             <div key={index} className="text-center">
               <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 shadow-sm text-blue-600">

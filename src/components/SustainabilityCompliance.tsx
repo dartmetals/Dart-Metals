@@ -71,7 +71,7 @@ const SustainabilityCompliance: React.FC = () => {
         </div>
 
         {/* Simple Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div className="grid sm:grid-cols-4 grid-cols-2 md:grid-cols-4 gap-4 text-center">
           <div className="p-4">
             <div className="text-xl font-bold text-green-600 mb-1">Eco</div>
             <div className="text-gray-900 font-medium">Friendly</div>

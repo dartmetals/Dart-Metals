@@ -7,22 +7,8 @@ const AboutSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-5 gap-12 items-center">
           
-          {/* Left Side - Image (40%) */}
-          <div className="lg:col-span-2">
-            <div className="relative">
-              {/* Main Image */}
-              <div className="rounded-2xl overflow-hidden ">
-                <img 
-                  src="/about-home1.png" 
-                  alt="UK Metal Export Processing Facility"
-                  className="w-full h-80 lg:h-96 object-cover"
-                />
-              </div>
-              </div>
-          </div>
-
           {/* Right Side - Content (60%) */}
-          <div className="lg:col-span-3 mt-12">
+          <div className="lg:col-span-3 mt-12 lg:order-1">
             {/* Section Title */}
             <div className="mb-8">
               <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold mb-4">
@@ -92,6 +78,20 @@ const AboutSection: React.FC = () => {
                 </svg>
               </button>
             </div> */}
+          </div>
+
+          {/* Left Side - Image (40%) - Moved to below content */}
+          <div className="lg:col-span-2 lg:order-2">
+            <div className="relative">
+              {/* Main Image */}
+              <div className="rounded-2xl overflow-hidden md:mt-20">
+                <img 
+                  src="/about-home1.png" 
+                  alt="UK Metal Export Processing Facility"
+                  className="w-full h-80 lg:h-96 object-cover sm:object-contain "
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

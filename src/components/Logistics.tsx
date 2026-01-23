@@ -36,7 +36,7 @@ const Logistics: React.FC = () => {
         </div>
 
         {/* Shipping Methods */}
-        <div className="grid md:grid-cols-3 gap-8 mb-4">
+        <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 mb-4">
           {shippingMethods.map((method, index) => (
             <div key={index} className="text-center p-2 bg-white rounded-xl shadow-sm">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
